@@ -11,7 +11,7 @@ public class MutantTest {
     public void TestMutant1() {
 
         //select testcase ke(n)
-        n=2;
+        n=5;
 
         testcase.setTcKe(n);
 

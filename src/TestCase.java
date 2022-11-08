@@ -22,27 +22,27 @@ public class TestCase {
     public void setTcKe(int i) {
         //Tambahkan testcase disini
         switch (i) {
-            case 1 -> {
+            case 1 -> {             //Lemah
                 this.gol = 1;
                 this.masker = 2;
                 this.hadir = 3;
             }
-            case 2 -> {
+            case 2 -> {             //Kuat
                 this.gol = 2;
                 this.masker = 5;
                 this.hadir = 6;
             }
-            case 3 -> {
+            case 3 -> {             //Lemah
                 this.gol = 3;
                 this.masker = 2;
                 this.hadir = 7;
             }
-            case 4 -> {
+            case 4 -> {             //Lemah
                 this.gol = 4;
                 this.masker = 2;
                 this.hadir = 3;
             }
-            case 5 -> {
+            case 5 -> {             //Kuat, ada yg salah
                 this.gol = 5;
                 this.masker = 6;
                 this.hadir = 9;
